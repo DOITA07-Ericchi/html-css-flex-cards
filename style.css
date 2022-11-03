@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka";
+}
+
+h1, h2, h4, h5, h6 {
+    color: deeppink;
+}
+
+main {
+    max-width: 960px;
+    margin: 5em auto 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #4dccf2;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-member {
+    background-color: #0f0e17;
+    color: white;
+    min-width: 300px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.img-propic {
+    object-fit: cover;
+}
+
+.flex-item {
+
+}
